@@ -13,16 +13,31 @@
 	<link rel="icon" sizes="192x192" href="images/android/chrome/192.png">
 </head>
 <body>
+	
 	<div id="container">
+	
+		<!-- Mobile Nav -->
+		<nav class="mobile-nav">
+			<div id ="menu-links">
+				<a href="index.html">Home</a>
+				<a href="index.html">About Us</a>
+				<a href="index.html">Classes</a>
+				<a href="index.html">Nutrition</a>
+				<a href="index.html">Contact Us</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
 
 	<!-- Use the header area for the website name or logo -->
-	<header>
+	<header id="ffc-logo">
 		<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club Logo"></a>
 	</header>
 	</div>
 	
-	<!-- Use The navc area to add hyerlinks to other pages within the website -->
-	<nav>
+	<!-- Tablet, Desktop Nav -->
+	<nav class="tablet-desktop">
 		<ul>
 		<li><a href="index.html"> Home </a></li>
 		<li><a href="about.html"> About Us </a></li>
@@ -98,6 +113,8 @@
 	</footer>
 
 	</div>
+	
+	<script src="scripts/script.js"></script>
 
 </body>
 </html>
